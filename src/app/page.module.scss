@@ -1,0 +1,13 @@
+.main {
+  position: relative;
+  height: 100%;
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 521px;
+    height: 276px;
+    background-image: url(/assets/svg/logo.svg);
+  }
+}
